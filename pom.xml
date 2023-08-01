@@ -121,6 +121,18 @@
     		<scope>test</scope>
 		</dependency>
     </dependencies>
+	<distributionManagement>
+    		<repository>
+      		    <id>nexus</id>
+     		    <name>demo-release</name>
+      		    <url>http://18.233.96.14:8081/repository/demo-release/</url>
+    		</repository>
+	    
+       		<snapshotRepository>
+      		    	<id>nexus</id>
+      		    	<name>demo-snapshot</name>
+      			<url>http://18.233.96.14:8081/repository/demo-snapshot/</url>
+    		</snapshotRepository>
     <build>
         <plugins>
             <plugin>
