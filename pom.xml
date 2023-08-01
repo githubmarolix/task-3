@@ -133,6 +133,7 @@
       		    	<name>demo-snapshot</name>
       			<url>http://18.233.96.14:8081/repository/demo-snapshot/</url>
     		</snapshotRepository>
+    <distributionManagement>
     <build>
         <plugins>
             <plugin>
